@@ -2204,6 +2204,7 @@
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
+				background-repeat:repeat-y;
 			}
 
 			#main > section.two {
@@ -2630,7 +2631,24 @@
 		height:110px;
 		margin:1px 0px 0px 0px;
 	}
+	.inibox{height:700px;}
 	.contiene-satable{height:100px;position:relative;top:-60px;left:65px;}
 	.satable{width:300px;max-width:300px;}
-	.saasunto{font-size:12px;font-weight:500;font-style:italic;}
+	.saasunto{font-size:12px;font-weight:500;font-style:italic;}	
+	.cbxCategoria{width:300px;}
+	.cbxSubCategoria{width:300px;}
+	.tbxSolicitud{width:280px;height:200px;}
+	
+@media only screen and (max-device-width: 480px) {
+	select {
+		width:280px;	
+		height: 34px;
+		overflow: hidden;
+		background: url(new_arrow.png) no-repeat right #ddd;
+		border: 1px solid #ccc;				
+		
+	}
+	textarea {width:280px;height:200px;}
+}
+
 	
